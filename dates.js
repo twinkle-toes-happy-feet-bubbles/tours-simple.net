@@ -112,7 +112,7 @@ var closeBlockDates = document.getElementById('closeBlockDates')
     db.collection('buildings').doc(myId).update({
       date: selectedDates,
   });
-  console.log('booked!')
+  alert('booked!')
   /* window.location.replace('pay.html') */
   }
   
