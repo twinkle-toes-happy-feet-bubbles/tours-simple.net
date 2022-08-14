@@ -113,7 +113,7 @@ var closeBlockDates = document.getElementById('closeBlockDates')
       date: selectedDates,
   });
   console.log('booked!')
-  window.location.replace('/travel-cards/dist/pay.html')
+  window.location.replace('pay.html')
   }
   
     
