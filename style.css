@@ -21,7 +21,7 @@ ul {
 
 body {
   font-family: Helvetica, Arial, sans-serif;
-  background: #fdb62e;
+  background: #bfcfb2;
   font-size: 14px;
   color: #626b79;
 }
@@ -31,9 +31,9 @@ body {
   margin: auto;
   color: white;
   padding: 1em;
-  text-shadow: 0px 1px 1px #c38102;
+  /*text-shadow: 0px 1px 1px #c38102;*/
   font-weight: 300;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Lato', sans-serif;
 }
 
 .hero {
@@ -51,14 +51,17 @@ body {
   margin: 0;
 }
 
+
+
+
 .title-container {
   max-width: 600px;
 }
 .title-container .jumbo-title {
   color: black;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Lato', sans-serif;
   font-size: 120px;
-  text-shadow: 0px 2px 2px #c38102;
+  /*text-shadow: 0px 2px 2px #c38102;*/
   margin: 0;
 }
 .title-container .jumbo-content {
@@ -67,18 +70,25 @@ body {
   line-height: 1.4;
   font-weight: 200;
   color: white;
-  text-shadow: 0px 2px 2px #ec9c02;
+  /*text-shadow: 0px 2px 2px #ec9c02;*/
   font-family: 'Nunito', sans-serif;
 }
 
+.tagLine{
+  font-family: 'Dancing Script', cursive;
+  text-align: right;
+  padding: 6px;
+  margin: 3px;
+  color: #323333;
+}
+
 .l-card {
-  background: white;
+  background: #ede5d0;
   max-width: 300px;
   width: 100%;
   padding: 70px 0 30px;
   text-align: center;
-  border-radius: 40px;
-  box-shadow: 0px 2px 6px #ec9c02;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,7 +96,7 @@ body {
 }
 .l-card .l-title-container .location-title {
   font-size: 24px;
-  color: #fdb62e;
+  color: #bfcfb2;
   margin: 0;
   padding: 0 0 5px 0;
 }
@@ -140,12 +150,12 @@ body {
   font-weight: 900;
   font: inherit;
   cursor: pointer;
-  border: 1px solid #22205f;
+  border: 1px solid #ede5d0;
   margin: 0;
   font-family: 'Nunito', sans-serif;
 }
 .button:hover {
-  box-shadow: 0px 2px 6px #c38102;
+  box-shadow: 0px 2px 6px #ede5d0;
   opacity: 0.9;
 }
 
@@ -190,8 +200,8 @@ body {
   }
 }
 #topImg{
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   margin: auto;
   fill: white;
   animation-name: floating;
@@ -216,13 +226,15 @@ body {
   }
   
 #titleSpan{
-  color: white;
+  color: ivory;
 }
 
 
 /*
 NEXT SOURCE
 */
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
@@ -233,6 +245,7 @@ NEXT SOURCE
 
 
 body {
+  
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
 }
@@ -337,6 +350,8 @@ header h3 {
   border: none;
   color: #fff;
 }
+
+
 
 /* Modal */
 .modal-wrapper {
