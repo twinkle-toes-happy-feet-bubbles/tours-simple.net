@@ -1,0 +1,142 @@
+body {
+
+  font-family: Helvetica, Arial, sans-serif;
+
+  background: #bfcfb2;
+
+  font-size: 14px;
+
+  color: #626b79;
+
+  border-left: 10px solid whitesmoke;
+
+  border-right: 10px solid whitesmoke;
+
+}
+
+#propImg{
+
+  width: 90%;
+
+  margin: auto;
+
+  border: 2px solid #42445A;
+
+  border-radius: 2em;
+
+}
+
+#propHead{
+
+  padding: 3px;
+
+  margin-left: 20px;
+
+  font-size: 3em;
+
+  color: black;
+
+  padding-left: 30px;
+
+}
+
+#propDesc{
+
+  padding-top: 30px;
+
+  margin-top: 10px;
+
+  font-size: 1.2em;
+
+  padding: 6px;
+
+  color: #42445A;
+
+  letter-spacing: 0.2px;
+
+  line-height: 20px;
+
+  padding-bottom: 30px;
+
+  padding-left: 30px;
+
+}
+
+#propStatus{
+
+  color: black;
+
+  padding-left: 30px;
+
+  padding-bottom: 30px;
+
+  font-size: 21px;
+
+}
+
+#propCost{
+
+    color: black;
+
+  padding-right: 30px;
+
+  padding-bottom: 30px;
+
+  font-size: 18px;
+
+  font-weight: 800;
+
+}
+
+#datepicker{
+
+  margin: auto;
+
+  width: 27em;
+
+  height: 3em;
+
+  bottom: 1;
+
+  border: none;
+
+  border-radius: 2em;
+
+  text-align: center;
+
+  background: #ede5d0;
+
+  
+
+}
+
+.propBook{
+
+  padding-left: 30px;
+
+  padding-top: 30px;
+
+  margin-right: 150em;
+
+  display: grid;
+
+  align-self: center;
+
+  align-items: center;
+
+}
+
+#dateBtn{
+
+  background: #42445A;
+
+  color: white;
+
+  padding: 10px;
+
+  border: none;
+
+  border-radius: 2em;
+
+}
+
