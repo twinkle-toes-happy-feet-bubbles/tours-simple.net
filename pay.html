@@ -1,36 +1,103 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
+
   <meta charset="UTF-8">
-  <title></title>
+
+  <title>Payment Successful! TourSimple</title>
+
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,700'><link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
 </head>
 
 <body>
+
   <div id="blurry-filter"></div>
+
 <header>
+
   <div>
+
     <h3>TourSimple</h3>
-    <h4>Pay</h4>
+
+    <h4>The Payment was Successful!!</h4>
 
   </div>
+
 </header>
+
 <br>
+
 <br>
+
 <br>
+
+<h3 id="finalName">Loading.</h3>
+
 <br>
+
+<h4>Smart lock Pin</h4>
+
+<h3 id="finalCode">Loading..</h3>
+
 <br>
+
 <br>
-<h2>This page will be made into owners Stripe Pay Snippet</h2>
+
+<br>
+
+<h2>Take a Screenshot of this page for future references</h2>
+
+<br>
+
+<br>
+
+<h4>Thank you! Have a nice day</h4>
+
 <style>
+
   *{
+
     font-family: 'Open Sans', sans-serif;
+
   }
+
   h1, h2, h3, h4{
+
     text-align: center;
+
   }
+
 </style>
+
 </body>
 
+<script>
+
+  var nameDiv = document.getElementById('finalName')
+
+  var pinDiv = document.getElementById('finalCode')
+
+  
+
+  nameDiv.innerHTML = sessionStorage.getItem('docName')
+
+  pinDiv.innerHTML = sessionStorage.getItem('docStat')
+
+  
+
+</script>
+
 </html>
+
+
+
+
+
+
+
+
+
+
