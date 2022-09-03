@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>TourSimple.net - tour with ease</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap&family=Dancing+Script:wght@500&family=Lato:wght@700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./style.css">
+
+<!--
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lato:wght@700&display=swap" rel="stylesheet">
+
+-->
+
+</head>
+
+<body>
+
+<!-- partial:index.partial.html -->
+
+  <div id="navbar">
+
+    <div id="mainTitle">
+
+      <a href="index.html">TourSimple</a>
+
+   </div>
+
+  <a href="index.html">Home</a>
+
+  <a href="mybookings.html">My Bookings</a>
+
+  <a href="mailto:calamarentierra@gmail.com">Contact</a>
+
+</div>
+
+<div id="heroId" class="hero">
+
+  <div class="title-container">
+
+    <h1 class="jumbo-title">Tour <span id="titleSpan">Simple</spam></h1>
+
+    
+
+    <h2 class="tagLine"><p class="jumbo-content">Tour with Ease</p></h2>
+
+    
+
+    
+
+  </div>
+
+   <img id="topImg" class="location-icon" src="https://raw.githubusercontent.com/twinkle-toes-happy-feet-bubbles/tours-simple.net/main/bag.svg"/>
+
+ 
+
+   
+
+</div>
+
+</div>
+
+<div class="content">
+
+  <ul id="cardsList" class="card-list table-buildings">
+
+    
+
+    
+
+    
+
+  </ul>
+
+<!-- partial -->
+
+<div class="intro"><a href="https://reddyportfolio.netlify.app" target="_blank">Built with 💚 by <b>Reddy</b></a></div>
+
+</body>
+
+<!-- 
+
+----------FIREBASE---------
+
+-->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+  
+
+  <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script> 
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-firestore.js"></script>  
+
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+
+  <script>
+
+    // Your web app's Firebase configuration
+
+    var firebaseConfig = {
+
+      
+
+    apiKey: "AIzaSyDGjyG94c14hMy-KKKu3A0D58l9F_27rXg",
+
+    authDomain: "propertiesofchris.firebaseapp.com",
+
+    projectId: "propertiesofchris",
+
+    storageBucket: "propertiesofchris.appspot.com",
+
+    messagingSenderId: "657082755481",
+
+    appId: "1:657082755481:web:6b9339cbb87538ebbb8b08",
+
+    measurementId: "G-7YFXR17014"
+
+    };
+
+    // Initialize Firebase
+
+    firebase.initializeApp(firebaseConfig);
+
+    const db = firebase.firestore();
+
+    
+
+  </script>
+
+  
+
+<script src="script.js"></script>
+
+</html>
+
