@@ -1,3 +1,5 @@
+alert('404 internal server error')
+
 const modalWrapper = document.querySelector('.modal-wrapper');
 
 const dateModalWrapper = document.querySelector('.dateModal-wrapper');
