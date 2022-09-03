@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title></title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,700'><link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+
+<body>
+
+    <div id="navbar">
+
+    <div id="mainTitle">
+
+      <a href="index.html">TourSimple</a>
+
+   </div>
+
+  <a href="index.html">Home</a>
+
+  <a href="mybookings.html">My Bookings</a>
+
+  <a href="mailto:calamarentierra@gmail.com">Contact</a>
+
+</div>
+
+  <div id="blurry-filter"></div>
+
+<header>
+
+  <div>
+
+    <h3>TourSimple</h3>
+
+    <h4>The Payment was Successful!!</h4>
+
+  </div>
+
+</header>
+
+<br>
+
+<br>
+
+<br>
+
+<h3 id="finalName">Loading.</h3>
+
+<br>
+
+<h4>Smart lock Pin</h4>
+
+<h3 id="finalCode">Loading..</h3>
+
+<br>
+
+<br>
+
+<p id="moreDetails"></p>
+
+<br>
+
+<br>
+
+<h2>Take a Screenshot of this page for future references</h2>
+
+<br>
+
+<br>
+
+<br>
+
+<h4>Thank you! Have a nice day</h4>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<h4>You can close this site now</h4>
+
+<br>
+
+<h6>@2022 TourSimple.Net</h6>
+
+<style>
+
+body{
+
+  background-color: peachpuff;
+
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23626b79' fill-opacity='0.16'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+}
+
+  *{
+
+    font-family: 'Open Sans', sans-serif;
+
+  }
+
+  h1, h2, h3, h4, h6{
+
+    text-align: center;
+
+  }
+
+  /* Navigation */
+
+#navbar {
+
+  background-color: #1B1B1BD6; /* Black background color */
+
+  position: fixed; /* Make it stick/fixed */
+
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+
+  width: 100%; /* Full width */
+
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+
+  border-top: 3px solid rgba(0, 131, 0, 0.7);
+
+  border-right: 3px solid rgba(0, 131, 0, 0.7);
+
+}
+
+/* Style the navbar links */
+
+#navbar a {
+
+  float: right;
+
+  display: block;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 15px;
+
+  text-decoration: none;
+
+}
+
+#navbar a:hover {
+
+  background-color: #ddd;
+
+  color: forestgreen;
+
+}
+
+#mainTitle{
+
+  float: left;
+
+  display: block;
+
+  font-family: 'nunito', sans-serif;
+
+  font-size: 18px;
+
+}
+
+</style>
+
+</body>
+
+<script>
+
+  var nameDiv = document.getElementById('finalName')
+
+  var pinDiv = document.getElementById('finalCode')
+
+  var moreDetails = document.getElementById('moreDetails')
+
+  
+
+  nameDiv.innerHTML = sessionStorage.getItem('docName')
+
+  pinDiv.innerHTML = sessionStorage.getItem('docStat')
+
+  moreDetails.innerHTML = sessionStorage.getItem('docDetails')
+
+  
+
+  localStorage.setItem('docName', sessionStorage.getItem('docName'))
+
+  localStorage.setItem('docStat', sessionStorage.getItem('docStat'))
+
+  localStorage.setItem('docDetails', sessionStorage.getItem('docDetails'))
+
+  localStorage.setItem('datesToDb', sessionStorage.getItem('datesToDb'))
+
+  
+
+  
+
+  
+
+  
+
+  
+
+/*Scroll Navbar */
+
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+
+// When the user scrolls to the top of the page, slide up the navbar (50px out of the top view)
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+
+    document.getElementById("navbar").style.top = "0";
+
+  } else {
+
+    document.getElementById("navbar").style.top = "-50px";
+
+  }
+
+}
+
+</script>
+
+</html>
+
