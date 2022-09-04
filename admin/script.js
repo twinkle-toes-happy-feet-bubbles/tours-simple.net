@@ -1,4 +1,4 @@
-alert('STATUS:404 INTERNALSERVERERROR')
+
 
 const modalWrapper = document.querySelector('.modal-wrapper');
 
