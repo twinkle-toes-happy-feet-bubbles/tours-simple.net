@@ -34,7 +34,7 @@ const renderUser = doc => {
 
         console.log(this.id);
 
-         window.location.replace('bench.html');" 
+         window.location.assign('bench.html');" 
 
          class="button cta" id='${doc.id}'>book now</button>
 
