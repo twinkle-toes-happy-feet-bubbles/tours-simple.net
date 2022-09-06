@@ -347,7 +347,7 @@ dateModalForm.addEventListener('submit', e => {
 
   sessionStorage.setItem('docId', id)
 
-  window.location.replace('dates.html')
+  window.location.assign('dates.html')
 
 });
 
@@ -355,7 +355,7 @@ dateModalForm.addEventListener('submit', e => {
 
   e.preventDefault();
 
-  window.location.replace('/dates.html')
+  window.location.assign('dates.html')
 
   
 
