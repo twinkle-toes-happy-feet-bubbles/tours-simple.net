@@ -20,7 +20,7 @@ const renderUser = doc => {
 
        <h1 class="location-title">${doc.data().Name}</h1>
 
-      <div class="l-description-container">${doc.data().Cost}$/day </div>
+      <div class="l-description-container">${doc.data().Cost}$/night </div>
 
       <br>
 
