@@ -136,7 +136,7 @@ function blockDates(){
 
       
 
-        blockInfo.innerHTML = 'You are blocking for ' + totalDays + " days. Are you sure?";
+        blockInfo.innerHTML = 'You are blocking for ' + totalDays + " days.";
 
         closeUnBlockDates.style.display = 'inherit';
 
