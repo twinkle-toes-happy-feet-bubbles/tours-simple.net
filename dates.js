@@ -124,7 +124,7 @@ function blockDates(){
 
       } else{
 
-        blockInfo.innerHTML = 'You are booking for ' + totalDays + " days. Are you sure?";
+        blockInfo.innerHTML = 'You are booking for ' + totalDays + " days.";
 
         closeBlockDates.style.display = 'inherit';
 
