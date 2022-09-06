@@ -46,7 +46,7 @@ const renderUser = doc => {
 
       <td>${doc.data().Cost}</td>
 
-      <td>${doc.data().Status}</td>
+      <td></td>
 
       <td>
 
@@ -108,9 +108,13 @@ const renderUser = doc => {
 
   btnDelete.addEventListener('click', () => {
 
-    db.collection('buildings').doc(`${doc.id}`).delete().then(() => {
+  if (confirm('You are going to delete a property. Are you Sure?') == true) {
+
+     db.collection('buildings').doc(`${doc.id}`).delete().then(() => {
 
       console.log('Document succesfully deleted!');
+
+      alert('Deleted Successfully')
 
     }).catch(err => {
 
@@ -118,7 +122,28 @@ const renderUser = doc => {
 
     });
 
+    
+
+  } else {
+
+    alert('Delete action cancelled succesfully')
+
+  }
+
+   
+
   });
+
+
+
+
+
+
+
+
+
+
+
 
   
 
